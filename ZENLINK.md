@@ -1,5 +1,7 @@
 # ZenLink Android
 
+Repository: https://github.com/zenos-n/zenlink-android (branch `zenlink`).
+
 Fork of https://github.com/KDE/kdeconnect-android with its upstream history and
 licenses retained. The app keeps the original source namespace for compatibility
 and uses the distinct application ID `org.zenos.zenlink` (`.debug` in debug builds).
