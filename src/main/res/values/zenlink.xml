@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: GPL-2.0-or-later -->
+<resources>
+    <string name="zenlink_media">Audio and camera</string>
+    <string name="zenlink_media_description">Stream microphone, sound, and camera in both directions</string>
+    <string name="zenlink_media_instructions">Start here to use your phone as the computer microphone and webcam, and play computer sound on your phone. Camera and microphone stay off until you start. You can switch camera and microphone while streaming.</string>
+    <string name="zenlink_media_send_microphone">Share phone microphone</string>
+    <string name="zenlink_media_send_camera">Share phone camera</string>
+    <string name="zenlink_media_front_camera">Front camera (off = back camera)</string>
+    <string name="zenlink_media_headset_microphone">Headset microphone (off = phone microphone)</string>
+    <string name="zenlink_media_headset_unavailable">That microphone is unavailable. Connect a headset with a microphone and try again.</string>
+    <string name="zenlink_media_receive_audio">Play computer sound on phone</string>
+    <string name="zenlink_media_receive_camera">View computer camera</string>
+    <string name="zenlink_media_start">Start streaming</string>
+    <string name="zenlink_media_stop">Stop streaming</string>
+    <string name="zenlink_media_back">Back</string>
+    <string name="zenlink_media_preview">Computer camera preview</string>
+    <string name="zenlink_media_idle">Not streaming</string>
+    <string name="zenlink_media_active">Streaming · received %1$d audio packets, %2$d camera frames</string>
+    <string name="zenlink_media_permissions">Allow the selected permissions to start streaming.</string>
+</resources>

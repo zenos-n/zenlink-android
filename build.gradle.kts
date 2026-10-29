@@ -38,8 +38,9 @@ kotlin {
 android {
     namespace = "org.kde.kdeconnect_tp"
     compileSdk = 37
+    buildToolsVersion = "37.0.0"
     defaultConfig {
-        applicationId = "org.kde.kdeconnect_tp"
+        applicationId = "org.zenos.zenlink"
         minSdk = 23
         targetSdk = 37
         versionCode = 13700
