@@ -13,7 +13,7 @@ Defaults: phone microphone and camera to PC; PC system sound to phone. The PC
 creates dedicated microphone/playback devices and a virtual webcam through the
 companion extension. Upstream KDE Connect features are retained.
 
-Build from the workspace's Nix development shell with `./gradlew assembleDebug`.
+Enter `nix develop` in this repository (or the workspace), then build with `./gradlew assembleDebug`.
 Run `./gradlew testDebugUnitTest` for the unit suite. Media protocol tests are in
 `src/test/java/org/kde/kdeconnect/plugins/media`.
 
