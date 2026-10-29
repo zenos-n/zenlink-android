@@ -22,6 +22,13 @@
         ANDROID_HOME = sdk;
         ANDROID_SDK_ROOT = sdk;
         GRADLE_OPTS = "-Dorg.gradle.project.android.aapt2FromMavenOverride=${sdk}/build-tools/37.0.0/aapt2";
+        shellHook = ''
+          export ANDROID_USER_HOME="$HOME/.private/Config/android"
+          export ANDROID_EMULATOR_HOME="$ANDROID_USER_HOME"
+          export ANDROID_AVD_HOME="$HOME/.private/Packages/android/avd"
+          export GRADLE_USER_HOME="$HOME/.private/Packages/gradle"
+          export GRADLE_OPTS="$GRADLE_OPTS -Dmaven.repo.local=$HOME/.private/Packages/maven/.m2/repository"
+        '';
       };
     };
 }
